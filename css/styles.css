@@ -7,3 +7,14 @@
 body{
     background-color: aquamarine;
 }
+
+.boton{
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color: blue;
+    transform: scale(2);
+    transition-duration: 1s;
+}
